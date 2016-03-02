@@ -1,9 +1,9 @@
 # script to automate the settings to SNMP services and install the services if they arent already installed.
 # define your parameters below
 
-$pollers = "192.168.150.11"
+$pollers = "192.168.1.20"
 $communitystring = "public"
-$location = "Göteborgs Stad Upphandlings AB"
+$location = "Customer"
 
 # Import ServerManger Module
 Import-Module ServerManager
